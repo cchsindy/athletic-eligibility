@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/cchsindy/athletic-eligibility#readme",
   "dependencies": {
-    "axios": "^0.19.0"
+    "services": "file:../services"
   }
 }
