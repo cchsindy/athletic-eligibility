@@ -4,6 +4,7 @@
   "description": "Weekly checks grades for player eligibility on current season teams.",
   "main": "index.js",
   "scripts": {
+    "index": "node --experimental-modules index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
