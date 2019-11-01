@@ -10,8 +10,14 @@ const vnn = new VNNService
 //   }
 // })
 // spark.test()
-vnn.getRoster().then(players => {
-  for (const player of players) {
-    console.log(player)
-  }
-})
+// vnn.getRoster().then(players => {
+//   for (const player of players) {
+//     canvas.getCoursesFailing(player).then(courses => {
+//       console.log(player)
+//       for (const course of courses) {
+//         console.log('...', course.name, '=>', course.grade)
+//       }
+//     })
+//   }
+// })
+vnn.runEligibilityCheck(canvas, spark)
